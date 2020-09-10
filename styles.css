@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 30%;
+}
+h1 {
+  font-size: 50px;
+  color: #61bfbf;
+
+}
+h2 {
+  color: #61bfbf;
+}
+img {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #61bfbf;
+}
+img:hover {
+  border-color: white;
+}
+.minor {
+  color: grey;
+}
+#choreography {
+  background-color: white;
+  color: black;
+}

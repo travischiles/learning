@@ -32,6 +32,10 @@ p {
 #accent2:hover {
 color: #9AC4F8;
 }
+#skills-title {
+    color: #FF6F59;
+    margin-left: 25%;
+}
 .profile-picture {
   width: 200px;
   border-style: dashed;
@@ -52,8 +56,9 @@ color: #9AC4F8;
   width: 800px;
 }
 .offcenter-img {
-  position: relative;
-  right: 500px;
+  position: absolute;
+  right: 50%;
+  float: left;
 }
 
 h1 {
@@ -62,23 +67,46 @@ h1 {
 }
 .about-container {
   border-right-style: dashed;
-  border-right-width: 3px;
+  border-right-width: 0px;
   border-right-color: grey;
   width: 30%;
   height: 150px;
   color: black;
   position: relative;
+  right: 100;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 50%;
   padding-right: 20px;
+  line-height: 2;
+}
+.skills-container {
+  width: 300px;
+  margin: auto 10px auto 50%;
+  text-align: left;
+  padding-right: 200px;
+}
+.skills-row {
+  position: relative;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.skillsicon {
+  height: 20px;
+  float: left;
+  margin-left: 80px;
+  margin-right: 10px;
 }
 .aboutright {
-right: 0px;
-top: -60px;
+left: 0px;
+top: -80px;
 position: absolute;
 }
 .image-strip2 {
-  margin-top: 100px;
+  float: left;
+  margin: auto;
+  right: 400px;
 }
 .header {
   margin-top: 0px;
